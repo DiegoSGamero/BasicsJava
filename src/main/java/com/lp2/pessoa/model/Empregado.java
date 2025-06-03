@@ -1,6 +1,6 @@
 package com.lp2.pessoa.model;
 
-public class Empregado extends Pessoa {
+public abstract class Empregado extends Pessoa {
     private int codSetor;
     private double salarioBase;
     private double imposto;
