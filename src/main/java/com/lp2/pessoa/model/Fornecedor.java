@@ -6,6 +6,13 @@ public class Fornecedor extends Pessoa {
 
     public Fornecedor() {};
 
+    // construtor herdando endereco da classe mae
+    public Fornecedor(String nome, String telefone, double valorCredito, double valorDivida) {
+        super(nome, telefone);
+        this.valorCredito = valorCredito;
+        this.valorDivida = valorDivida;
+    };
+
     public void setValorCredito(double valorCredito) {
         this.valorCredito = valorCredito;
     };

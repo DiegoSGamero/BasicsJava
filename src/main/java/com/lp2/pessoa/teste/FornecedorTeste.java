@@ -22,13 +22,8 @@ public class FornecedorTeste {
         System.out.println("Saldo: R$ " + fornecedor1.obterSaldo(fornecedor1));
         System.out.println();
 
-        // Fornecedor com construtor alternativo 1 herdado
-        Fornecedor fornecedor2 = new Fornecedor();
-        fornecedor2.setNome("Fornecedor Beta");
-        fornecedor2.setEndereco("Rua das Acácias, 45");
-        fornecedor2.setTelefone("(21) 98888-1234");
-        fornecedor2.setValorCredito(5000.00);
-        fornecedor2.setValorDivida(1200.00);
+        // Fornecedor com construtor alternativo 2 herdado
+        Fornecedor fornecedor2 = new Fornecedor("Fornecedor Beta", "(21) 98888-1234", 5000.00, 5000);
 
         System.out.println("--- Fornecedor 2 ---");
         System.out.println("Nome: " + fornecedor2.getNome());

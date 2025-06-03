@@ -5,7 +5,7 @@ public abstract class Pessoa {
     private String endereco;
     private String telefone;
     
-    // construtor padrao
+    // // construtor vazio para coneguir instanciar subclasses sem parametros
     public Pessoa(){};
 
     // construtor alternativo 1

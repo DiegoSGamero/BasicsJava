@@ -1,4 +1,4 @@
-// para o ex.4 tornamos a class Empregado para abstract nao podendo mais instanciar aqui para teste
+// para o ex.4 tornamos a class Empregado abstract, nao podendo mais instanciar aqui para teste
 
 // package com.lp2.pessoa.teste;
 
