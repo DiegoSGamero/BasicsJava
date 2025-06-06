@@ -21,7 +21,7 @@ public class Operario extends Empregado {
     }
 
     public void setComissao (double comissao) {
-        this.comissao = valorProducao*0.04;
+        this.comissao = comissao;
     }
 
     public double getComissao () {
@@ -31,7 +31,7 @@ public class Operario extends Empregado {
     @Override
     public double calcularSalario (){
         double imposto1 = 1 - imposto;
-        double salario = (salarioBase * imposto1) + getComissao();
+        double salario = salarioBase * imposto1 + getComissao() * getValorProducao();
         return salario;
     }
 }
