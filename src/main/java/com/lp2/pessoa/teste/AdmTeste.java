@@ -21,6 +21,7 @@ public class AdmTeste {
        System.out.println("Setor: R$ " + adm.getCodSetor());
        System.out.println("SalarioBase: R$ " + adm.getSalarioBase());
        System.out.println("Imposto: R$ " + adm.getImposto());
+       System.out.println("Ajuda: R$ " + adm.getAjudaDeCusto());
        System.out.println("Salario corrigido: R$ " + adm.calcularSalario());
        System.out.println();
     }
