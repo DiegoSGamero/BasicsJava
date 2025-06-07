@@ -1,9 +1,9 @@
 package com.lp2.pessoa.model;
 
 public abstract class Empregado extends Pessoa {
-    private int codSetor;
-    private double salarioBase;
-    private double imposto;
+    protected int codSetor;
+    protected double salarioBase;
+    protected double imposto;
 
     // construtor vazio para coneguir instanciar subclasses sem parametros
     public Empregado() {};
